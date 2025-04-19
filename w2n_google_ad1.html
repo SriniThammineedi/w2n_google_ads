@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Way2News | Hyperlocal News App</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Supermercado+One&family=Anek+Telugu:wght@100..800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/ad2.css">
+</head>
+
+<body>
+    <!-- Main Outer -->
+    <div class="mainOuter">
+
+        <!-- Background text Animation -->
+        <div class="textAnimation">
+            <h1>Way2News</h1>
+            <h1>Way2News</h1>
+            <h1>Way2News</h1>
+            <h1>Way2News</h1>
+            <h1>Way2News</h1>
+            <h1>Way2News</h1>
+            <h1>Way2News</h1>
+        </div>
+
+        <!-- Background Rays -->
+        <div class="raysHolder">
+            <div id="rays"></div>
+        </div>
+
+        <!-- All Languages Reveal -->
+        <div class="container">
+            <div class="block b-1"></div>
+            <div class="block b-2"></div>
+            <div class="block b-3"></div>
+            <div class="block b-4"></div>
+            <div class="block b-5"></div>
+            <div class="block b-6"></div>
+            <div class="block b-7"></div>
+        </div>
+
+        <!-- Circle Overlay Reveal -->
+        <div class="circle-overlay"></div>
+
+        <!-- Logo Reveal Animation -->
+        <div class="logoAnimation">
+            <!-- Circle To Square -->
+            <div class="square">
+                <div class="head"></div>
+                <div class="head-sub1"></div>
+                <div class="head-sub2"></div>
+                <div class="head-sub3"></div>
+            </div>
+        </div>
+        <!-- Logo Text -->
+        <div class="logoTxt">
+            <h1>way2news</h1>
+            <h6>#IndiaReadsWay2News</h6>
+        </div>
+
+        <!-- Twinkling Stars -->
+        <div class="twinkles">
+            <svg id="one" width="50" height="50" viewBox="0 0 100 100">
+                <g id="copy-1" class="group">
+                    <g class="large">
+                        <path id="large"
+                            d="M41.25,40 L42.5,10 L43.75,40 L45,41.25 L75,42.5 L45,43.75 L43.75,45 L42.5,75 L41.25,45 L40,43.75 L10,42.5 L40,41.25z"
+                            fill="white" />
+                    </g>
+                    <g class="large-2" transform="rotate(45)">
+                        <use xlink:href="#large" />
+                    </g>
+                    <g class="small">
+                        <path id="small"
+                            d="M41.25,40 L42.5,25 L43.75,40 L45,41.25 L60,42.5 L45,43.75 L43.75,45 L42.5,60 L41.25,45 L40,43.75 L25,42.5 L40,41.25z"
+                            fill="white" />
+                    </g>
+                </g>
+            </svg>
+
+            <svg id="two" width="40" height="40" viewBox="0 0 100 100">
+                <use xlink:href="#copy-1" />
+            </svg>
+
+            <svg id="three" width="50" height="50" viewBox="0 0 100 100">
+                <use xlink:href="#copy-1" />
+            </svg>
+        </div>
+
+        <!-- Telugu Daily Text -->
+        <div class="teluguTxt">మన ఊరు మన వార్తలు</div>
+
+        <!-- App Replication -->
+        <div class="replica" id="replicaApp">
+            <div id="wrap">
+                <div id="imgs">
+                    <div>
+                        <img src="images/story1.jpg" class="news-article" />
+                    </div>
+                    <div>
+                        <img src="images/story2.jpg" class="news-article" />
+                    </div>
+                    <div>
+                        <img src="images/story3.jpg" class="news-article" />
+                    </div>
+                    <div>
+                        <img src="images/story4.jpg" class="news-article" />
+                    </div>
+                    <div>
+                        <img src="images/story5.jpg" class="news-article" />
+                    </div>
+                    <div>
+                        <img src="images/story6.jpg" class="news-article" />
+                    </div>
+                    <div>
+                        <img src="images/story7.jpg" class="news-article" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Download Btns -->
+        <div class="downloads">
+            <h5><lord-icon src="https://cdn.lordicon.com/rhmbrqqg.json" trigger="loop" delay="2000" state="in-reveal"
+                    colors="primary:#ff3908,secondary:#ffd000" style="width:50px;height:50px">
+                </lord-icon> Loved by more than 20 million Indians! <span>Download Way2News App</span></h5>
+            <div class="inlineFlex">
+                <img class="approved" src="images/play-store2.png" />
+                <img class="approved" src="images/app-store2.png" />
+            </div>
+        </div>
+
+        <!-- Leading Daily Animation -->
+        <img src="images/leading-title.png" alt="" class="leadingTxt">
+    </div>
+
+    <!-- Page Scripts Start -->
+    <script src="js/pageSwitch.js"></script>
+    <script src="js/page-scripts.js"></script>
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+
+    <script type="module">
+        import Splitting from "https://cdn.skypack.dev/splitting";
+        Splitting();
+    </script>
+
+    <script>
+        const images = document.querySelectorAll(".container .block");
+        const container = document.querySelector(".container");
+        const circle = document.querySelector(".circle-overlay");
+        const logo = document.querySelector('.logoAnimation');
+        const logoTxt = document.querySelector('.logoTxt');
+        const telTxt = document.querySelector('.teluguTxt');
+        const downBtns = document.querySelector('.downloads');
+        const leadText = document.querySelector('.leadingTxt');
+        const txtAnim = document.querySelector('.textAnimation');
+        const stars = document.querySelector('.twinkles');
+        const repApp = document.getElementById('replicaApp');
+        const tl = gsap.timeline();
+
+        tl.from(images, {
+            y: "110%",
+            ease: Expo.easeInOut,
+            duration: 1,
+            stagger: {
+                amount: 2
+            }
+        })
+
+            .to(images, {
+                opacity: 0,
+                duration: .5,
+                delay: 0
+            })
+
+            .set(circle, { display: "block", scale: 0, opacity: 1 })
+
+            .to(circle, {
+                scale: 10,
+                duration: 0.5,
+                ease: "power2.in"
+            })
+
+            .to(circle, {
+                scale: 0,
+                duration: 0.5,
+                ease: "power2.out"
+            })
+
+        // Logo Animation
+        setTimeout(() => {
+            if (logo) {
+                logo.style.display = 'flex';
+
+                const square = logo.querySelector('.square');
+                const head = logo.querySelector('.head');
+                const sub1 = logo.querySelector('.head-sub1');
+                const sub2 = logo.querySelector('.head-sub2');
+                const sub3 = logo.querySelector('.head-sub3');
+
+                square?.classList.remove('square');
+                void square?.offsetWidth;
+                square?.classList.add('square');
+
+                [head, sub1, sub2, sub3].forEach(el => {
+                    if (el) {
+                        el.style.animation = 'none';
+                        el.offsetHeight;
+                        el.style.animation = '';
+                    }
+                });
+            }
+        }, 3700);
+
+        setTimeout(() => {
+            if (logoTxt) logoTxt.style.display = 'flex';
+            if (txtAnim) txtAnim.style.display = 'none';
+        }, 4000);
+
+        setTimeout(() => {
+            if (telTxt) telTxt.style.display = 'block';
+            if (stars) stars.style.display = 'block';
+            if (repApp) repApp.style.display = 'block';
+            if (downBtns) downBtns.style.display = 'flex';
+            if (leadText) leadText.style.display = 'block';
+        }, 5850);
+
+        // Text Animation Blinking One by One
+        document.addEventListener("DOMContentLoaded", function () {
+            const headings = document.querySelectorAll('.textAnimation h1');
+            let currentIndex = 0;
+            let prevIndex = headings.length - 1;
+
+            function animateHeadings() {
+                headings[prevIndex].classList.remove('fill');
+                headings[currentIndex].classList.add('fill');
+                prevIndex = currentIndex;
+                currentIndex = (currentIndex + 1) % headings.length;
+                setTimeout(animateHeadings, 225);
+            }
+
+            animateHeadings();
+        });
+    </script>
+</body>
+
+</html>
